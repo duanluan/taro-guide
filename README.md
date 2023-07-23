@@ -1,14 +1,14 @@
 # Taro 渐进式教程
 
-## 前言
+## 简介
 
 Taro 官方的[渐进式入门教程](https://taro-docs.jd.com/docs/guide)写的不是很好，不符合初学者的思路，而且不能做到完全复制粘贴可用，所以这里自己写一个。
-
-## 简介
 
 本教程使用 [JSON Server](https://github.com/typicode/json-server) 搭建后端服务，使用 [Vue3](https://cn.vuejs.org/)（[Composition API](https://cn.vuejs.org/guide/extras/composition-api-faq.html)） + [TypeScript](https://www.tslang.cn/index.html) + [Pinia](https://pinia.vuejs.org/zh/) + [Sass](https://www.sass.hk/) 开发一个简单的图书管理系统。
 
 开发环境为 Windows，用的人最多，能解决掉的问题也最多。
+
+文档：[https://duanluan.github.io/taro-guide/](https://duanluan.github.io/taro-guide/)
 
 ## 文档说明
 
