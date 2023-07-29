@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /介绍
+      link: /开始/介绍
     - theme: alt
       text: GitHub
       link: https://github.com/duanluan/taro-guide

@@ -10,27 +10,27 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       {text: '首页', link: '/'},
-      {text: '文档', link: '/介绍'}
+      {text: '文档', link: '/开始/介绍'}
     ],
 
     sidebar: [
       {
         text: '开始',
         items: [
-          {text: '介绍', link: '/介绍'},
-          {text: '环境准备', link: '/环境准备'}
+          {text: '介绍', link: '/开始/介绍'},
+          {text: '环境准备', link: '/开始/环境准备'}
         ],
       },
       {
         text: '快速上手',
         items: [
-          {text: '初始化项目', link: '/初始化项目'},
+          {text: '初始化项目', link: '/快速上手/初始化项目'},
         ]
       }
     ],
 
     socialLinks: [
-      {icon: 'github', link: 'https://github.com/vuejs/vitepress'}
+      {icon: 'github', link: 'https://github.com/duanluan/taro-guide'}
     ]
   }
 })
