@@ -25,6 +25,7 @@ export default defineConfig({
         text: '快速上手',
         items: [
           {text: '初始化项目', link: '/快速上手/初始化项目'},
+          {text: '基础教程', link: '/快速上手/基础教程'},
         ]
       }
     ],

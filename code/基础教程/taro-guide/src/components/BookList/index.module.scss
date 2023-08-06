@@ -1,0 +1,44 @@
+@mixin omitGt2Lines {
+  // 允许单词内换行，避免 Text 组件不换行
+  word-break: break-all;
+  // 超过 2 行用省略号显示
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.bookItem {
+  display: flex;
+  flex-direction: row;
+
+  .bookCover {
+    width: 30%;
+
+    image {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .bookAttrs {
+    width: 70%;
+    margin-right: 20px;
+
+    .bookTitle {
+      color: #37a;
+    }
+
+    .bookAuthorsAndPress {
+      @include omitGt2Lines;
+      color: #999;
+      font-size: 30px;
+    }
+
+    .bookDesc {
+      @include omitGt2Lines;
+      font-size: 35px;
+    }
+  }
+}
+
